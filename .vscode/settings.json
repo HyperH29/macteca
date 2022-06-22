@@ -1,0 +1,8 @@
+{
+    "git.ignoreLimitWarning": true,
+    
+    "[FILE EXTENSION OF STEP 3].lint.unknownAtRules": "ignore",
+    "cSpell.words": [
+        "Textbody"
+    ],
+}
