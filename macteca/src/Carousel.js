@@ -4,7 +4,7 @@ const Carousel = () => {
     <div class="carousel">
       <div
         id="slide1"
-        class="carousel-center relative p-11 items-center min-w-fit max-w-screen-xl "
+        class="carousel-center relative p-11 items-center min-w-fit max-w-screen-xl bg-white "
       >
         <div className="card">
           <div class=" md:justify-center md:space-x-0 items-center align-middle text-center  bg-base-300 shadow-xl">

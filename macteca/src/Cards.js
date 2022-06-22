@@ -8,7 +8,7 @@ import {
 const Card = () => {
   return (
     // Group Size
-    <div class="mx-auto w-max m-8 p-14 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
+    <div class="mx-auto w-max m-8 p-14 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 ">
       {/* Card--1 */}
       <div class="card w-96 bg-white shadow-xl">
         <figure class="px-10 pt-10">

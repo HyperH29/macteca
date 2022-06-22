@@ -2,16 +2,21 @@ const Title = () => {
   return (
     <section className="hero">
       <div
-        class="hero min-h-max max-h-min w-full p-10 py-10 m-16  "
-        style={{          
-          "background-image":
-            'url("https://www.computerbeing.co.uk/wp-content/uploads/2021/04/PC-Laptop-Repair.jpg")'
-             ,
-          
-        }}
+        class="hero min-h-max max-h-min w-full p-10 px-0 py-10 m-16  "
+        // style={{
+        //   "background-image":
+        //     'url("https://www.computerbeing.co.uk/wp-content/uploads/2021/04/PC-Laptop-Repair.jpg")'
+        //      ,
+
+        // }}
       >
-        <div class="hero-overlay bg-opacity-90 "></div>
-        <div class="hero-content text-center text-neutral-content">
+        <img
+          src="https://www.computerbeing.co.uk/wp-content/uploads/2021/04/PC-Laptop-Repair.jpg"
+          class="opacity-100 w-full no bg-repeat-x"
+          alt="Repair"
+        />
+        <div class="hero-overlay bg-opacity-90 h-80 sm:min-w-max md:w-1/2  "></div>
+        <div class="hero-content text-center text-neutral-content ">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold font-serif">Hello there</h1>
             <p class="mb-6 font-san">
